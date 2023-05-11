@@ -6,6 +6,14 @@ import { ethers } from "ethers";
  import { erc20ABI } from "wagmi";
 import { parseEther } from "ethers/lib/utils.js";
 import { Link } from 'react-router-dom';
+import apr from "../assets/apr.png"
+import BELGIUM from "../assets/BELGIUM.png"
+import plant from "../assets/plant.png"
+import STRAWBERRY from "../assets/STRAWBERRY.png"
+import timelock from "../assets/timelock.png"
+import title from "../assets/title.png"
+import VANILLA from "../assets/VANILLA.png"
+
 
 function Card() {
     const { connector: activeConnector, isConnected } = useAccount()
@@ -17,7 +25,7 @@ function Card() {
 <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-x-4 pb-10">
   <div className="bg-white rounded-lg shadow-lg overflow-hidden">
     <img
-      src="https://i.postimg.cc/fRPB0k1c/VANILLA-IMG-1.png"
+      src={VANILLA}
       alt="card-image"
       className="object-cover h-64 max-w-7xl ml-24"
     />
@@ -45,7 +53,7 @@ function Card() {
   </div>
   <div className="bg-white rounded-lg shadow-lg overflow-hidden">
     <img
-      src="https://i.postimg.cc/Pxwcq1xv/STRAWBERRY-IMG.png"
+      src={STRAWBERRY}
       alt="card-image"
       className="object-cover h-64 max-w-7xl ml-24"
     />
@@ -74,7 +82,7 @@ function Card() {
   </div>
   <div className="bg-white rounded-lg shadow-lg overflow-hidden">
     <img
-      src="https://i.postimg.cc/BbtjDZrF/BELGIUM-IMG.png"
+      src={BELGIUM}
       alt="card-image"
       className="object-cover h-64 max-w-7xl ml-24"
     />
