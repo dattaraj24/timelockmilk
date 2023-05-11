@@ -125,6 +125,25 @@ const timelockABI =[
 				"internalType": "address",
 				"name": "_address",
 				"type": "address"
+			}
+		],
+		"name": "getpools",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_address",
+				"type": "address"
 			},
 			{
 				"internalType": "uint256",
@@ -167,11 +186,6 @@ const timelockABI =[
 				"internalType": "address",
 				"name": "_address",
 				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "index",
-				"type": "uint256"
 			}
 		],
 		"name": "gettotalreward",
