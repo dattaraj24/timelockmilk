@@ -44,8 +44,7 @@ function App() {
   return (
 
 <>
-<WagmiConfig client={wagmiClient}>
-  <RainbowKitProvider chains={chains}>
+
     <Router>
       <Routes>
         <Route exact path="/" element={<Index />} />
@@ -54,8 +53,7 @@ function App() {
         <Route exact path="/belgium" element={<Belgium />} />
       </Routes>
     </Router>
-  </RainbowKitProvider>
-</WagmiConfig>
+
 </>
 
   );

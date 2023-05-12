@@ -9,7 +9,7 @@ function Header() {
     <a href="#" class="text-lg font-bold">
       <img class="h-8 w-auto" src="https://via.placeholder.com/50" alt="Logo"/>
     </a>
-    <ConnectButton />
+  
   </div>
 </header>
     </>
